@@ -1,0 +1,8 @@
+# WeChat Image Slicer Tool Dependencies
+# 微信图片切图工具依赖项
+
+# Image processing library
+Pillow>=10.0.0
+
+# Web application framework (for online version)
+streamlit>=1.28.0

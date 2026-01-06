@@ -1,0 +1,32 @@
+{
+  "name": "ai-leaders-curation",
+  "version": "1.0.0",
+  "description": "精选100位AI时代最值得关注的领袖人物 | 每日9:00 AM自动推送",
+  "main": "index.js",
+  "scripts": {
+    "notion": "node scripts/format-notion-table.js",
+    "notion:save": "node scripts/format-notion-table.js > notion-table.md",
+    "report": "node scripts/generate-report.js",
+    "report:save": "node scripts/generate-report.js --save",
+    "add": "node scripts/add-leader.js",
+    "validate": "node -e \"const fs = require('fs'); const data = JSON.parse(fs.readFileSync('data/ai-leaders.json', 'utf8')); console.log('✅ JSON valid. Leaders:', data.leaders.length);\"",
+    "stats": "node -e \"const fs = require('fs'); const data = JSON.parse(fs.readFileSync('data/ai-leaders.json', 'utf8')); const stats = { total: data.leaders.length, founders: data.leaders.filter(l => l.category === 'founder').length, executives: data.leaders.filter(l => l.category === 'executive').length, entrepreneurs: data.leaders.filter(l => l.category === 'entrepreneur').length, researchers: data.leaders.filter(l => l.category === 'researcher').length, product_leaders: data.leaders.filter(l => l.category === 'product_leader').length, withInterviews: data.leaders.filter(l => l.interviews && l.interviews.length > 0).length }; console.log('📊 Database Statistics:'); console.log('Total:', stats.total); console.log('Founders:', stats.founders); console.log('Executives:', stats.executives); console.log('Entrepreneurs:', stats.entrepreneurs); console.log('Researchers:', stats.researchers); console.log('Product Leaders:', stats.product_leaders); console.log('With Interviews:', stats.withInterviews);\""
+  },
+  "keywords": [
+    "ai",
+    "leaders",
+    "curation",
+    "interviews",
+    "notion",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/community-starter-kit.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

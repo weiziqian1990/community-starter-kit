@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AI Leaders Database Schema",
+  "description": "Schema for storing information about top AI leaders",
+  "type": "object",
+  "properties": {
+    "leaders": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "company", "position", "category"],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "Unique identifier"
+          },
+          "name": {
+            "type": "string",
+            "description": "Full name in English and Chinese"
+          },
+          "company": {
+            "type": "string",
+            "description": "Company name"
+          },
+          "position": {
+            "type": "string",
+            "description": "Job title/position"
+          },
+          "category": {
+            "type": "string",
+            "enum": ["founder", "executive", "entrepreneur", "researcher", "product_leader"],
+            "description": "Leader category"
+          },
+          "interviews": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["url", "platform", "title", "date"],
+              "properties": {
+                "url": {
+                  "type": "string",
+                  "format": "uri",
+                  "description": "Interview link"
+                },
+                "platform": {
+                  "type": "string",
+                  "description": "Platform (YouTube, Podcast, etc.)"
+                },
+                "title": {
+                  "type": "string",
+                  "description": "Interview title"
+                },
+                "date": {
+                  "type": "string",
+                  "format": "date",
+                  "description": "Interview date"
+                },
+                "duration": {
+                  "type": "string",
+                  "description": "Interview duration"
+                },
+                "keyPoints": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "Key insights and takeaways"
+                }
+              }
+            }
+          },
+          "twitter": {
+            "type": "string",
+            "description": "Twitter handle"
+          },
+          "linkedin": {
+            "type": "string",
+            "description": "LinkedIn profile URL"
+          },
+          "notes": {
+            "type": "string",
+            "description": "Additional notes"
+          }
+        }
+      }
+    },
+    "lastUpdated": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Last update timestamp"
+    }
+  }
+}

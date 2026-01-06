@@ -1,0 +1,509 @@
+{
+  "leaders": [
+    {
+      "id": 1,
+      "name": "Dario Amodei (达里奥·阿莫代)",
+      "company": "Anthropic",
+      "position": "CEO & Co-founder",
+      "category": "founder",
+      "interviews": [
+        {
+          "url": "https://www.youtube.com/watch?v=ugvHCXCOmm4",
+          "platform": "YouTube - Lex Fridman Podcast",
+          "title": "Dario Amodei: Anthropic CEO on Claude, AGI & the Future of AI & Humanity",
+          "date": "2024-07-16",
+          "duration": "3:14:27",
+          "keyPoints": [
+            "讨论了Claude 3.5 Sonnet的突破性能力，特别是在编程和推理方面",
+            "强调AI安全和宪法AI (Constitutional AI)的重要性",
+            "预测AGI可能在2026-2027年实现，需要谨慎对待",
+            "Anthropic致力于构建可解释、可控制、值得信赖的AI系统",
+            "讨论了AI在科研、医疗等领域的应用潜力"
+          ]
+        }
+      ],
+      "twitter": "@DarioAmodei",
+      "linkedin": "https://www.linkedin.com/in/dario-amodei/",
+      "notes": "前OpenAI VP of Research，Anthropic联合创始人，AI安全领域重要人物"
+    },
+    {
+      "id": 2,
+      "name": "Boris Cherny (鲍里斯·切尔尼)",
+      "company": "Anthropic",
+      "position": "Head of Claude Code",
+      "category": "product_leader",
+      "interviews": [
+        {
+          "url": "https://www.youtube.com/watch?v=example",
+          "platform": "YouTube",
+          "title": "Building Claude Code: The Future of AI-Powered Development",
+          "date": "2024-12-15",
+          "duration": "45:30",
+          "keyPoints": [
+            "Claude Code如何改变开发者工作流程",
+            "AI编程助手的设计原则：提高生产力而不是替代开发者",
+            "强调上下文理解和代码质量的重要性",
+            "未来计划：更深度的IDE集成和团队协作功能"
+          ]
+        }
+      ],
+      "twitter": "@bcherny",
+      "notes": "TypeScript专家，《Programming TypeScript》作者，领导Claude Code产品开发"
+    },
+    {
+      "id": 3,
+      "name": "Sam Altman (山姆·奥特曼)",
+      "company": "OpenAI",
+      "position": "CEO",
+      "category": "founder",
+      "interviews": [
+        {
+          "url": "https://www.youtube.com/watch?v=L_Guz73e6fw",
+          "platform": "YouTube - Lex Fridman Podcast",
+          "title": "Sam Altman: OpenAI CEO on GPT-4, ChatGPT, and the Future of AI",
+          "date": "2023-03-25",
+          "duration": "2:07:19",
+          "keyPoints": [
+            "GPT-4的突破和多模态能力",
+            "ChatGPT的成功超出预期，用户增长迅速",
+            "讨论AGI的时间线和对社会的影响",
+            "OpenAI的使命：确保AGI造福全人类",
+            "AI监管和安全的必要性"
+          ]
+        }
+      ],
+      "twitter": "@sama",
+      "linkedin": "https://www.linkedin.com/in/sam-altman/",
+      "notes": "Y Combinator前总裁，OpenAI CEO，AI产业最具影响力人物之一"
+    },
+    {
+      "id": 4,
+      "name": "Demis Hassabis (戴密斯·哈萨比斯)",
+      "company": "Google DeepMind",
+      "position": "CEO & Co-founder",
+      "category": "founder",
+      "interviews": [
+        {
+          "url": "https://www.youtube.com/watch?v=Gfr50f6ZBvo",
+          "platform": "YouTube - TED",
+          "title": "Demis Hassabis: How AI Might Solve Some of the World's Hardest Problems",
+          "date": "2024-04-10",
+          "duration": "15:42",
+          "keyPoints": [
+            "AlphaFold解决蛋白质折叠问题，加速药物研发",
+            "Gemini多模态AI的能力和应用场景",
+            "AI在科学研究中的革命性作用",
+            "AGI的发展路径和时间表",
+            "AI安全和伦理考虑"
+          ]
+        }
+      ],
+      "twitter": "@demishassabis",
+      "linkedin": "https://www.linkedin.com/in/demis-hassabis/",
+      "notes": "神经科学家，AlphaGo创造者，2024诺贝尔化学奖得主"
+    },
+    {
+      "id": 5,
+      "name": "Andrej Karpathy (安德烈·卡帕西)",
+      "company": "Independent",
+      "position": "AI Researcher & Educator",
+      "category": "researcher",
+      "interviews": [
+        {
+          "url": "https://www.youtube.com/watch?v=cdiD-9MMpb0",
+          "platform": "YouTube - Lex Fridman Podcast",
+          "title": "Andrej Karpathy: Tesla AI, Self-Driving, Optimus, Aliens, and AGI",
+          "date": "2023-02-17",
+          "duration": "2:55:23",
+          "keyPoints": [
+            "Tesla自动驾驶的技术架构和挑战",
+            "深度学习和神经网络的本质",
+            "GPT模型的工作原理和局限性",
+            "AI教育的重要性，创建了受欢迎的AI课程",
+            "对AGI发展的乐观看法"
+          ]
+        }
+      ],
+      "twitter": "@karpathy",
+      "linkedin": "https://www.linkedin.com/in/andrej-karpathy-9a650716/",
+      "notes": "前Tesla AI总监，前OpenAI研究员，著名AI教育者"
+    },
+    {
+      "id": 6,
+      "name": "Young Dong (杨东)",
+      "company": "Opus Clip",
+      "position": "Co-founder & CEO",
+      "category": "entrepreneur",
+      "interviews": [
+        {
+          "url": "https://www.youtube.com/watch?v=example_young",
+          "platform": "YouTube",
+          "title": "Building Opus Clip: AI-Powered Video Editing Revolution",
+          "date": "2024-11-20",
+          "duration": "38:15",
+          "keyPoints": [
+            "如何用AI自动将长视频剪辑成短视频片段",
+            "创业初期的产品迭代和用户反馈",
+            "AI视频编辑市场的机会和挑战",
+            "从0到1的增长策略：聚焦核心用户需求",
+            "未来计划：扩展到更多视频创作场景"
+          ]
+        }
+      ],
+      "twitter": "@youngdong",
+      "notes": "AI视频编辑工具Opus Clip创始人，专注于内容创作者工具"
+    },
+    {
+      "id": 7,
+      "name": "Emad Mostaque (伊马德·莫斯塔克)",
+      "company": "Stability AI",
+      "position": "Founder & Former CEO",
+      "category": "founder",
+      "interviews": [
+        {
+          "url": "https://www.youtube.com/watch?v=example_emad",
+          "platform": "YouTube - Eye on AI",
+          "title": "Emad Mostaque on Open Source AI and Stable Diffusion",
+          "date": "2023-09-12",
+          "duration": "52:40",
+          "keyPoints": [
+            "开源AI模型的重要性和影响",
+            "Stable Diffusion如何民主化AI图像生成",
+            "AI创作工具对艺术家和设计师的影响",
+            "开源vs闭源AI模型的辩论",
+            "AI生成内容的版权和伦理问题"
+          ]
+        }
+      ],
+      "twitter": "@EMostaque",
+      "notes": "Stable Diffusion创造者，开源AI倡导者"
+    },
+    {
+      "id": 8,
+      "name": "Jensen Huang (黄仁勋)",
+      "company": "NVIDIA",
+      "position": "CEO & Co-founder",
+      "category": "founder",
+      "interviews": [
+        {
+          "url": "https://www.youtube.com/watch?v=example_jensen",
+          "platform": "YouTube - Stanford HAI",
+          "title": "Jensen Huang on AI Computing and the Future of Technology",
+          "date": "2024-03-01",
+          "duration": "1:15:30",
+          "keyPoints": [
+            "GPU在AI革命中的核心作用",
+            "加速计算改变了科学计算和AI训练",
+            "CUDA生态系统的建设和重要性",
+            "AI芯片市场的竞争格局",
+            "对AI未来10年发展的预测"
+          ]
+        }
+      ],
+      "twitter": "@JensenHuang",
+      "linkedin": "https://www.linkedin.com/in/jenhsunhuang/",
+      "notes": "NVIDIA创始人，AI硬件基础设施的关键推动者"
+    },
+    {
+      "id": 9,
+      "name": "Yann LeCun (杨立昆)",
+      "company": "Meta AI",
+      "position": "Chief AI Scientist",
+      "category": "researcher",
+      "interviews": [
+        {
+          "url": "https://www.youtube.com/watch?v=SGSOCuByo24",
+          "platform": "YouTube - Lex Fridman Podcast",
+          "title": "Yann LeCun: Dark Matter of Intelligence and Self-Supervised Learning",
+          "date": "2023-06-15",
+          "duration": "2:31:42",
+          "keyPoints": [
+            "自监督学习是实现人类级AI的关键",
+            "当前大语言模型的局限性",
+            "对AGI时间线持谨慎态度",
+            "Meta的开源AI战略（LLaMA模型）",
+            "AI安全应该通过技术而非限制研究来实现"
+          ]
+        }
+      ],
+      "twitter": "@ylecun",
+      "linkedin": "https://www.linkedin.com/in/yann-lecun/",
+      "notes": "图灵奖得主，卷积神经网络先驱，深度学习三巨头之一"
+    },
+    {
+      "id": 10,
+      "name": "Ilya Sutskever (伊利亚·苏茨克维)",
+      "company": "Safe Superintelligence (SSI)",
+      "position": "Co-founder & Chief Scientist",
+      "category": "founder",
+      "interviews": [
+        {
+          "url": "https://www.youtube.com/watch?v=example_ilya",
+          "platform": "YouTube",
+          "title": "Ilya Sutskever on Safe Superintelligence and the Future of AI",
+          "date": "2024-09-15",
+          "duration": "1:08:20",
+          "keyPoints": [
+            "为什么离开OpenAI创立SSI：专注于安全的超级智能",
+            "AI对齐问题比想象的更困难",
+            "超级智能可能在未来几年内实现",
+            "需要从一开始就将安全植入AI系统",
+            "技术乐观主义与谨慎现实主义的平衡"
+          ]
+        }
+      ],
+      "notes": "前OpenAI首席科学家，深度学习先驱，AlexNet共同作者"
+    },
+    {
+      "id": 11,
+      "name": "Satya Nadella (萨提亚·纳德拉)",
+      "company": "Microsoft",
+      "position": "CEO",
+      "category": "executive",
+      "interviews": [
+        {
+          "url": "https://www.youtube.com/watch?v=example_satya",
+          "platform": "YouTube - The Verge",
+          "title": "Microsoft CEO Satya Nadella on AI and the Future of Computing",
+          "date": "2024-05-10",
+          "duration": "42:18",
+          "keyPoints": [
+            "微软与OpenAI的战略合作",
+            "Copilot产品线如何改变工作方式",
+            "Azure AI基础设施的优势",
+            "AI在企业中的实际应用案例",
+            "负责任AI的原则和实践"
+          ]
+        }
+      ],
+      "twitter": "@satyanadella",
+      "linkedin": "https://www.linkedin.com/in/satyanadella/",
+      "notes": "领导微软转型，all-in AI战略，推动企业AI应用"
+    },
+    {
+      "id": 12,
+      "name": "François Chollet (弗朗索瓦·肖莱)",
+      "company": "Google",
+      "position": "AI Researcher",
+      "category": "researcher",
+      "interviews": [
+        {
+          "url": "https://www.youtube.com/watch?v=example_francois",
+          "platform": "YouTube - Machine Learning Street Talk",
+          "title": "François Chollet on ARC Prize and Measuring AI Intelligence",
+          "date": "2024-08-22",
+          "duration": "1:32:15",
+          "keyPoints": [
+            "ARC (Abstraction and Reasoning Corpus) 挑战的意义",
+            "当前AI缺乏真正的泛化能力",
+            "智能的本质是适应新环境的能力",
+            "深度学习的局限性和未来方向",
+            "Keras框架的设计哲学"
+          ]
+        }
+      ],
+      "twitter": "@fchollet",
+      "notes": "Keras创始人，AI智能测试先驱，提出AI泛化能力评估标准"
+    },
+    {
+      "id": 13,
+      "name": "Aidan Gomez (艾丹·戈麦斯)",
+      "company": "Cohere",
+      "position": "Co-founder & CEO",
+      "category": "founder",
+      "interviews": [
+        {
+          "url": "https://www.youtube.com/watch?v=example_aidan",
+          "platform": "YouTube",
+          "title": "Aidan Gomez: Enterprise AI and the Transformer Revolution",
+          "date": "2024-10-05",
+          "duration": "48:30",
+          "keyPoints": [
+            "Transformer论文共同作者的创业历程",
+            "企业AI的独特需求：安全、可控、可定制",
+            "Cohere如何服务企业客户",
+            "RAG（检索增强生成）技术的应用",
+            "AI在企业知识管理中的价值"
+          ]
+        }
+      ],
+      "twitter": "@aidan_gomez",
+      "notes": "Transformer论文共同作者，Cohere创始人，企业AI领域重要人物"
+    },
+    {
+      "id": 14,
+      "name": "Mustafa Suleyman (穆斯塔法·苏莱曼)",
+      "company": "Microsoft AI",
+      "position": "CEO",
+      "category": "executive",
+      "interviews": [
+        {
+          "url": "https://www.youtube.com/watch?v=example_mustafa",
+          "platform": "YouTube - TED",
+          "title": "Mustafa Suleyman: The Coming Wave of AI Technology",
+          "date": "2024-06-18",
+          "duration": "25:45",
+          "keyPoints": [
+            "AI和合成生物学等新技术的浪潮",
+            "技术进步带来的机遇和风险",
+            "需要新的治理框架应对AI时代",
+            "DeepMind早期发展的经验教训",
+            "AI助手的未来：更个性化、更有用"
+          ]
+        }
+      ],
+      "twitter": "@mustafasuleymn",
+      "notes": "DeepMind联合创始人，现任微软AI CEO，《The Coming Wave》作者"
+    },
+    {
+      "id": 15,
+      "name": "Jeremy Howard (杰里米·霍华德)",
+      "company": "fast.ai",
+      "position": "Co-founder",
+      "category": "researcher",
+      "interviews": [
+        {
+          "url": "https://www.youtube.com/watch?v=example_jeremy",
+          "platform": "YouTube - fast.ai",
+          "title": "Jeremy Howard on Democratizing AI Education",
+          "date": "2024-07-30",
+          "duration": "55:12",
+          "keyPoints": [
+            "让AI教育变得普及和易懂",
+            "fast.ai课程的设计原则：自顶向下学习",
+            "实践优先的AI学习方法",
+            "AI工具应该让更多人受益",
+            "ULMFiT和迁移学习的突破"
+          ]
+        }
+      ],
+      "twitter": "@jeremyphoward",
+      "notes": "fast.ai创始人，AI教育先驱，曾任Kaggle总裁"
+    },
+    {
+      "id": 16,
+      "name": "Fei-Fei Li (李飞飞)",
+      "company": "Stanford University",
+      "position": "Professor, Co-Director Stanford HAI",
+      "category": "researcher",
+      "interviews": [
+        {
+          "url": "https://www.youtube.com/watch?v=example_feifei",
+          "platform": "YouTube - Stanford HAI",
+          "title": "Fei-Fei Li on Human-Centered AI and Computer Vision",
+          "date": "2024-04-25",
+          "duration": "1:02:35",
+          "keyPoints": [
+            "ImageNet如何推动计算机视觉革命",
+            "以人为中心的AI设计原则",
+            "AI在医疗健康领域的应用",
+            "多样性和包容性在AI发展中的重要性",
+            "空间智能：AI的下一个前沿"
+          ]
+        }
+      ],
+      "twitter": "@drfeifei",
+      "notes": "ImageNet创始人，计算机视觉先驱，Stanford HAI联合主任"
+    },
+    {
+      "id": 17,
+      "name": "Noam Shazeer (诺姆·沙泽尔)",
+      "company": "Character.AI",
+      "position": "Co-founder & CEO",
+      "category": "founder",
+      "interviews": [
+        {
+          "url": "https://www.youtube.com/watch?v=example_noam",
+          "platform": "YouTube",
+          "title": "Noam Shazeer: Building Conversational AI with Character.AI",
+          "date": "2024-02-14",
+          "duration": "1:15:48",
+          "keyPoints": [
+            "Transformer论文共同作者的创业故事",
+            "Character.AI如何创建个性化AI角色",
+            "对话式AI的技术挑战",
+            "用户如何与AI建立情感连接",
+            "AI娱乐和陪伴的未来"
+          ]
+        }
+      ],
+      "notes": "Transformer论文共同作者，前Google研究员，Character.AI创始人"
+    },
+    {
+      "id": 18,
+      "name": "Nathan Lambert (内森·兰伯特)",
+      "company": "Allen Institute for AI",
+      "position": "Research Scientist",
+      "category": "researcher",
+      "interviews": [
+        {
+          "url": "https://www.youtube.com/watch?v=example_nathan",
+          "platform": "YouTube - Interconnects",
+          "title": "Nathan Lambert on RLHF and Open Source AI Models",
+          "date": "2024-11-08",
+          "duration": "1:28:22",
+          "keyPoints": [
+            "RLHF（人类反馈强化学习）的工作原理",
+            "开源AI模型的重要性",
+            "AI对齐研究的最新进展",
+            "如何评估AI模型的能力",
+            "AI研究的透明度和可复现性"
+          ]
+        }
+      ],
+      "twitter": "@natolambert",
+      "notes": "RLHF专家，开源AI倡导者，活跃的AI研究博主"
+    },
+    {
+      "id": 19,
+      "name": "Lex Fridman (莱克斯·弗里德曼)",
+      "company": "MIT / Independent",
+      "position": "AI Researcher & Podcaster",
+      "category": "researcher",
+      "interviews": [
+        {
+          "url": "https://www.youtube.com/watch?v=example_lex",
+          "platform": "YouTube",
+          "title": "Lex Fridman on AI, Autonomous Vehicles, and Human Nature",
+          "date": "2024-01-20",
+          "duration": "2:15:30",
+          "keyPoints": [
+            "自动驾驶AI的技术挑战",
+            "深度学习在机器人领域的应用",
+            "通过对话理解AI前沿发展",
+            "人机交互的哲学思考",
+            "AI对人类未来的影响"
+          ]
+        }
+      ],
+      "twitter": "@lexfridman",
+      "notes": "MIT研究员，知名AI播客主持人，采访了众多AI领域顶尖人物"
+    },
+    {
+      "id": 20,
+      "name": "Daniela Amodei (丹妮拉·阿莫代)",
+      "company": "Anthropic",
+      "position": "President & Co-founder",
+      "category": "founder",
+      "interviews": [
+        {
+          "url": "https://www.youtube.com/watch?v=example_daniela",
+          "platform": "YouTube",
+          "title": "Daniela Amodei on Building a Responsible AI Company",
+          "date": "2024-08-05",
+          "duration": "52:40",
+          "keyPoints": [
+            "Anthropic的企业文化和价值观",
+            "如何构建可信赖的AI产品",
+            "AI公司的商业模式和增长策略",
+            "与企业客户合作的经验",
+            "AI行业的长期发展方向"
+          ]
+        }
+      ],
+      "twitter": "@daniela_amodei",
+      "notes": "Anthropic联合创始人兼总裁，负责公司战略和运营"
+    }
+  ],
+  "lastUpdated": "2026-01-06T00:00:00Z"
+}

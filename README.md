@@ -17,6 +17,39 @@ An automated image processing tool that slices and optimizes images according to
 
 ---
 
+## 🌐 在线使用 | Online Version
+
+### 🎯 立即使用 | Use Now
+
+**无需安装，直接在浏览器中使用！**
+
+**No installation required - use directly in your browser!**
+
+👉 **在线工具链接 | Online Tool:**
+
+1. **本地运行在线版 | Run Locally:**
+   ```bash
+   # 安装依赖
+   pip install -r requirements.txt
+
+   # 启动Web应用
+   streamlit run app.py
+   ```
+   然后在浏览器打开 `http://localhost:8501`
+
+2. **部署到云端 | Deploy to Cloud:**
+   - 查看 [DEPLOYMENT.md](./DEPLOYMENT.md) 了解如何部署到 Streamlit Cloud、Hugging Face 等平台
+   - 一键部署，获得永久在线链接
+
+### 💻 两种使用方式 | Two Ways to Use
+
+| 方式 | 优点 | 适用场景 |
+|------|------|---------|
+| 🌐 **在线版** | 无需安装，浏览器直接使用 | 快速处理，偶尔使用 |
+| 💻 **命令行版** | 批量处理，自动化脚本 | 大量图片，重复操作 |
+
+---
+
 ## 🚀 Quick Start | 快速开始
 
 ### Installation | 安装
@@ -72,6 +105,7 @@ For detailed usage instructions, please see [USAGE.md](./USAGE.md)
 
 - **Python 3.7+**
 - **Pillow (PIL)** - Image processing library
+- **Streamlit** - Web application framework (for online version)
 
 ---
 

@@ -1,0 +1,15 @@
+# Core dependencies
+anthropic>=0.39.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Podcast processing
+feedparser>=6.0.10
+yt-dlp>=2024.1.0
+
+# Feishu SDK
+lark-oapi>=1.2.0
+
+# Utilities
+pyyaml>=6.0.1
+python-dateutil>=2.8.2

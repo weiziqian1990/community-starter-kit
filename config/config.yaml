@@ -1,0 +1,33 @@
+# 播客转写到飞书 - 配置文件
+
+# Claude API配置
+claude:
+  model: "claude-sonnet-4-5-20250929"
+  max_tokens: 4096
+
+# 飞书配置
+feishu:
+  # 默认文件夹token（可选）
+  default_folder_token: ""
+
+# 播客获取配置
+podcast:
+  # 请求超时时间（秒）
+  timeout: 30
+  # 支持的平台
+  platforms:
+    - rss
+    - xiaoyuzhou
+    - apple_podcasts
+
+# 转写配置
+transform:
+  # 是否使用自定义prompt模板
+  use_custom_prompt: false
+  # 自定义prompt模板路径（相对于config目录）
+  custom_prompt_path: "prompt_template.txt"
+
+# 日志配置
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
